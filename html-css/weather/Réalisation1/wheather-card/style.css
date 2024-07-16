@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+body {
+  background-color: #ebf2f6;
+}
+h1{
+  color: #B8B8B8;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.weather-wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.weather-card {
+  float: left;
+  margin: 20px 5px;
+  border-radius: 20px;
+  width: 270px;
+  height: 270px;
+  background-color: white;
+  box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);
+}
+
+.weather-icon {
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  float: right;
+}
+
+
+.weather-card .temperature {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 80px;
+  color: #B8B8B8;
+  margin-left: 20px;
+  clear: both;
+  float: left;
+}
+
+
+.weather-card .city {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: #d2d2d2;
+  left: 35px;
+  float: left;
+  clear: both;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+

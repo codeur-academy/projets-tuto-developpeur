@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ville {
+    margin-bottom: 40px;
+}
+
+.meteo {
+    display: flex;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.description {
+    text-transform: capitalize;
+}
