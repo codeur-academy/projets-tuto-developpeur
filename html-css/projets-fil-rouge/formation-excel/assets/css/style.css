@@ -1,24 +1,15 @@
-/**
-* Template Name: Vesperr
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
+# Variables
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
+:root {
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
@@ -29,7 +20,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #444444;  /* The default color of the main navmenu links */
+  --nav-color: #444444; /* The default color of the main navmenu links */
   --nav-hover-color: #3498db; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -38,7 +29,6 @@
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
-
 .light-background {
   --background-color: #f4fafd;
   --surface-color: #ffffff;
@@ -85,58 +75,6 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-}
-
-/* PHP Email Form Messages
-------------------------------*/
-.php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #ffffff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: var(--surface-color);
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
-  border-top-color: var(--surface-color);
-  animation: php-email-form-loading 1s linear infinite;
-}
-
-@keyframes php-email-form-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -187,18 +125,15 @@ h6 {
   .header .logo {
     order: 1;
   }
-
   .header .btn-getstarted {
     order: 2;
     margin: 0 15px 0 0;
     padding: 6px 15px;
   }
-
   .header .navmenu {
     order: 3;
   }
 }
-
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
@@ -211,7 +146,6 @@ h6 {
   .navmenu {
     padding: 0;
   }
-
   .navmenu ul {
     margin: 0;
     padding: 0;
@@ -219,11 +153,9 @@ h6 {
     list-style: none;
     align-items: center;
   }
-
   .navmenu li {
     position: relative;
   }
-
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
@@ -237,7 +169,6 @@ h6 {
     white-space: nowrap;
     transition: 0.3s;
   }
-
   .navmenu a i,
   .navmenu a:focus i {
     font-size: 12px;
@@ -245,17 +176,14 @@ h6 {
     margin-left: 5px;
     transition: 0.3s;
   }
-
   .navmenu li:last-child a {
     padding-right: 0;
   }
-
-  .navmenu li:hover>a,
+  .navmenu li:hover > a,
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-hover-color);
   }
-
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
@@ -271,48 +199,40 @@ h6 {
     z-index: 99;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   }
-
   .navmenu .dropdown ul li {
     min-width: 200px;
   }
-
   .navmenu .dropdown ul a {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
     color: var(--nav-dropdown-color);
   }
-
   .navmenu .dropdown ul a i {
     font-size: 12px;
   }
-
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
-  .navmenu .dropdown ul li:hover>a {
+  .navmenu .dropdown ul li:hover > a {
     color: var(--nav-dropdown-hover-color);
   }
-
-  .navmenu .dropdown:hover>ul {
+  .navmenu .dropdown:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
   }
-
   .navmenu .dropdown .dropdown ul {
     top: 0;
     left: -90%;
     visibility: hidden;
   }
-
-  .navmenu .dropdown .dropdown:hover>ul {
+  .navmenu .dropdown .dropdown:hover > ul {
     opacity: 1;
     top: 0;
     left: -100%;
     visibility: visible;
   }
 }
-
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
@@ -323,12 +243,10 @@ h6 {
     cursor: pointer;
     transition: color 0.3s;
   }
-
   .navmenu {
     padding: 0;
     z-index: 9997;
   }
-
   .navmenu ul {
     display: none;
     position: absolute;
@@ -342,7 +260,6 @@ h6 {
     z-index: 9998;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   }
-
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
@@ -356,7 +273,6 @@ h6 {
     white-space: nowrap;
     transition: 0.3s;
   }
-
   .navmenu a i,
   .navmenu a:focus i {
     font-size: 12px;
@@ -371,26 +287,22 @@ h6 {
     transition: 0.3s;
     background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
   }
-
   .navmenu a i:hover,
   .navmenu a:focus i:hover {
     background-color: var(--accent-color);
     color: var(--contrast-color);
   }
-
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-dropdown-hover-color);
   }
-
   .navmenu .active i,
   .navmenu .active:focus i {
     background-color: var(--accent-color);
     color: var(--contrast-color);
     transform: rotate(180deg);
   }
-
   .navmenu .dropdown ul {
     position: static;
     display: none;
@@ -402,20 +314,16 @@ h6 {
     box-shadow: none;
     transition: all 0.5s ease-in-out;
   }
-
   .navmenu .dropdown ul ul {
     background-color: rgba(33, 37, 41, 0.1);
   }
-
-  .navmenu .dropdown>.dropdown-active {
+  .navmenu .dropdown > .dropdown-active {
     display: block;
     background-color: rgba(33, 37, 41, 0.03);
   }
-
   .mobile-nav-active {
     overflow: hidden;
   }
-
   .mobile-nav-active .mobile-nav-toggle {
     color: #fff;
     position: absolute;
@@ -425,7 +333,6 @@ h6 {
     margin-right: 0;
     z-index: 9999;
   }
-
   .mobile-nav-active .navmenu {
     position: fixed;
     overflow: hidden;
@@ -433,12 +340,10 @@ h6 {
     background: rgba(33, 37, 41, 0.8);
     transition: 0.3s;
   }
-
-  .mobile-nav-active .navmenu>ul {
+  .mobile-nav-active .navmenu > ul {
     display: block;
   }
 }
-
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
@@ -513,12 +418,10 @@ h6 {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
@@ -553,15 +456,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
-/*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
@@ -588,11 +482,11 @@ h6 {
   font-weight: 400;
 }
 
-.page-title .breadcrumbs ol li+li {
+.page-title .breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.page-title .breadcrumbs ol li+li::before {
+.page-title .breadcrumbs ol li + li::before {
   content: "/";
   display: inline-block;
   padding-right: 10px;
@@ -612,13 +506,11 @@ section,
 }
 
 @media (max-width: 1199px) {
-
   section,
   .section {
     scroll-margin-top: 66px;
   }
 }
-
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
@@ -655,6 +547,64 @@ section,
   margin-bottom: 0;
 }
 
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+/* PHP Email Form Messages
+------------------------------*/
+.php-email-form .error-message {
+  display: none;
+  background: #df1529;
+  color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .sent-message {
+  display: none;
+  color: #ffffff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .loading {
+  display: none;
+  background: var(--surface-color);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid var(--accent-color);
+  border-top-color: var(--surface-color);
+  animation: php-email-form-loading 1s linear infinite;
+}
+
+@keyframes php-email-form-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -707,27 +657,71 @@ section,
     font-size: 28px;
     line-height: 36px;
   }
-
   .hero p {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 13px;
   }
 }
-
 @keyframes up-down {
   0% {
     transform: translateY(10px);
   }
-
   100% {
     transform: translateY(-10px);
   }
+}
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-5px);
+}
+
+.services .icon {
+  position: absolute;
+  left: -20px;
+  top: calc(50% - 30px);
+}
+
+.services .icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+  color: #49b5e7;
+}
+
+.services .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .icon-box:hover .title a {
+  color: #49b5e7;
+}
+
+.services .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -762,7 +756,6 @@ section,
     padding: 20px;
   }
 }
-
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -855,7 +848,6 @@ section,
   font-family: var(--heading-font);
   font-size: 14px;
 }
-
 
 /*--------------------------------------------------------------
 # Alt Services Section
@@ -1046,23 +1038,19 @@ section,
   .testimonials .testimonial-wrap {
     padding-left: 0;
   }
-
   .testimonials .testimonials-carousel,
   .testimonials .testimonials-slider {
     overflow: hidden;
   }
-
   .testimonials .testimonial-item {
     padding: 30px;
     margin: 15px;
   }
-
   .testimonials .testimonial-item .testimonial-img {
     position: static;
     left: auto;
   }
 }
-
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
@@ -1104,7 +1092,6 @@ section,
     margin: 0 5px;
   }
 }
-
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
@@ -1346,21 +1333,18 @@ section,
     margin: 0 auto 30px auto;
   }
 }
-
 @media (max-width: 767px) {
   .pricing .box {
     max-width: 80%;
     margin: 0 auto 30px auto;
   }
 }
-
 @media (max-width: 420px) {
   .pricing .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
   }
 }
-
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
@@ -1413,7 +1397,6 @@ section,
     background-size: contain;
   }
 }
-
 .contact:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 30%);
@@ -1424,7 +1407,7 @@ section,
   right: 0;
 }
 
-.contact .info-item+.info-item {
+.contact .info-item + .info-item {
   margin-top: 40px;
 }
 
@@ -1475,6 +1458,10 @@ section,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--accent-color);
+}
+
+.contact .php-email-form input[type=text]::-moz-placeholder, .contact .php-email-form input[type=email]::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
 .contact .php-email-form input[type=text]::placeholder,
@@ -1539,7 +1526,7 @@ section,
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1622,11 +1609,4 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+}/*# sourceMappingURL=style.css.map */

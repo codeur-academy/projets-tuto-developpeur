@@ -1,0 +1,31 @@
+@import "_Variables.scss"; 
+@import "_General_Styling";  
+
+@import "_Global_Header";
+@import "_Navigation_Menu";
+@import "_Navmenu_Mobile";
+@import "_Global_Footer";
+@import "_Preloader";
+@import "_Scroll_Top_Button";
+@import "_Page_Title_Breadcrumbs";
+@import "_Global_Sections";
+@import "_Global_Section_Titles";
+@import "_Aos_Mobile";
+@import "_PHP_Email_Form_Messages";
+
+@import "./sections/Hero_Section";
+@import "./sections/Service_Section";
+@import "./sections/Clients_Section";
+@import "./sections/About_Section";
+@import "./sections/Stats_Section";
+@import "./sections/Alt_Services_Section";
+@import "./sections/Features_Section";
+@import "./sections/Testimonials_Section";
+@import "./sections/Portfolio_Section";
+@import "./sections/Team_Section";
+@import "./sections/Pricing_Section";
+@import "./sections/Faq_Section";
+@import "./sections/Contact_Section";
+@import "./sections/Portfolio_Details_Section";
+@import "./sections/Service_Details_Section";
+
