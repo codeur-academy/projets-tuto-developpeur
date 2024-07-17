@@ -1,17 +1,17 @@
 @import "_Variables.scss"; 
-@import "_General_Styling";  
 
-@import "_Global_Header";
-@import "_Navigation_Menu";
-@import "_Navmenu_Mobile";
-@import "_Global_Footer";
-@import "_Preloader";
-@import "_Scroll_Top_Button";
-@import "_Page_Title_Breadcrumbs";
-@import "_Global_Sections";
-@import "_Global_Section_Titles";
-@import "_Aos_Mobile";
-@import "_PHP_Email_Form_Messages";
+@import "./global/General_Styling";  
+@import "./global/Global_Header";
+@import "./global/Navigation_Menu";
+@import "./global/Navmenu_Mobile";
+@import "./global/Global_Footer";
+@import "./global/Preloader";
+@import "./global/Scroll_Top_Button";
+@import "./global/Page_Title_Breadcrumbs";
+@import "./global/Global_Sections";
+@import "./global/Global_Section_Titles";
+@import "./global/Aos_Mobile";
+@import "./global/PHP_Email_Form_Messages";
 
 @import "./sections/Hero_Section";
 @import "./sections/Service_Section";
